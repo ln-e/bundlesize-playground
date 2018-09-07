@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "test": "bundlesize"
+  },
+  "devDependencies": {
+    "bundlesize": "^0.17.0"
+  },
+  "bundlesize": [
+    {
+      "path": "./dist.js",
+      "maxSize": "3 kB"
+    }
+  ]
+}
